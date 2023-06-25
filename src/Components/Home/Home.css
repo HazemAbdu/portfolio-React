@@ -1,0 +1,15 @@
+section .hero {
+    height: 100vh;
+    background: url("../asistant/bg-hero.png")  no-repeat;
+    background-size:contain;
+    background-position: top right;
+    padding: 20%;
+}
+.title {
+    color: blueviolet;
+    text-transform: uppercase;
+}
+
+h1, h3 {
+    text-transform: capitalize;
+} 

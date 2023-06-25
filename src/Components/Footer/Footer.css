@@ -1,0 +1,28 @@
+.end {
+    background-color: rgb(45, 41, 81);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 20px;
+}
+
+.end1 a{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin: 20px;
+}
+.end1 a:hover{
+    color:aquamarine !important;
+}
+
+@media (max-width: 500px ) {
+   .end1 a{
+    font-size: 20px;
+    margin: 3px;
+   }
+   .eend {
+    font-size: 15px;
+   }
+}
