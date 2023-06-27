@@ -13,3 +13,11 @@ section .hero {
 h1, h3 {
     text-transform: capitalize;
 } 
+
+@media (max-width: 500px) {
+    .hero {
+        /* height:  !important; */
+        /* background-color: aqua !important; */
+        background-position: bottom  !important;
+    }
+}

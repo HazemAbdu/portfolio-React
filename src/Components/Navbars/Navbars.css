@@ -1,50 +1,48 @@
-
-*{
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
-    scroll-behavior: smooth; 
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 a:hover {
-    color:blueviolet !important;
-    transition: 0.3s ease-in;
+  color: blueviolet !important;
+  transition: 0.3s ease-in;
 }
 .navbar {
-    font-size: 20px !important;
-    font-weight: 700 !important;
-    position:fixed;
-    width: 100%;
-    z-index: 999;
-
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  /* position: fixed; */
+  width: 100%;
+  z-index: 999;
 }
 .rest {
-    background-color: white;
-    border: 3px solid blueviolet;
-    border-radius: 8px;
-    padding: 4px;
-    margin-left: 15px;
-    text-align: center;
-    font-size: 20px;
+  background-color: white;
+  border: 3px solid blueviolet;
+  border-radius: 8px;
+  padding: 4px;
+  margin-left: 15px;
+  text-align: center;
+  font-size: 20px;
 }
 
 .res {
-    text-decoration: none;
-    color: blueviolet;
+  text-decoration: none;
+  color: blueviolet;
 }
 
 .rest:hover {
-    background-color: blueviolet;
-    transition: 0.2s;
+  background-color: blueviolet;
+  transition: 0.2s;
 }
 
 .rest a:hover {
-    color: white !important;
+  color: white !important;
 }
-@media (max-width:500px) {
-   .navbar {
-          text-align: center !important;
-        }
-        .rest {
-            text-decoration: none;
-            margin: 0 100px !important;
-    }
+@media (max-width: 500px) {
+  .navbar {
+    text-align: center !important;
+  }
+  .rest {
+    text-decoration: none;
+    margin: 0 100px !important;
+  }
 }

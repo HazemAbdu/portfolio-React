@@ -17,6 +17,7 @@ const Navbars = () => {
             <a
               className="res"
               target="_blank"
+              rel="noopener noreferrer"
               href="https://drive.google.com/file/d/1FjrDQ83iuuWj04ywVSSb8CXM1a8NacVU/view?usp=drive_link"
             >
               Resume
