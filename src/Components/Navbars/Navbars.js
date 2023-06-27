@@ -12,7 +12,7 @@ const Navbars = () => {
           <Nav className="ms-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link
-              href="https://about-my-hazem.netlify.app/"
+              href="https://about-hazem.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
