@@ -7,6 +7,8 @@ import SectionThree from "./Components/Section/SectionThree";
 import Footer from "./Components/Footer/Footer";
 
 function App() {
+
+
   return (
     <div>
       <Navbars />
@@ -19,4 +21,6 @@ function App() {
   );
 }
 
-export default App;
+
+
+export default App ;

@@ -11,7 +11,13 @@ const Navbars = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">About</Nav.Link>
+            <Nav.Link
+              href="https://about-my-hazem.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              About
+            </Nav.Link>
           </Nav>
           <div className="rest">
             <a
